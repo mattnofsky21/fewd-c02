@@ -1,0 +1,379 @@
+/*.mobile = @media only screen and (max-width: 660px)*/
+
+
+/* *{} = Universal > Cover those unaffected*/
+
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    color: #444444;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navigation {
+    display: absolute;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-title {
+    display: inline-flex;
+    margin: 0 24px;
+    align-items: center;
+}
+
+.colmar {
+    font-size: 32px;
+    color: #222222;
+    margin: 16px 0;
+}
+
+.academy {
+    font-size: 32px;
+    color: #666666;
+    font-weight: 300;
+    margin: 16px 0;
+}
+
+nav {
+    display: inline-flex;
+    margin: 0 24px;
+    font-weight: 200;
+}
+
+nav h2 {
+    margin: auto 8px;
+    font-weight: 200;
+}
+
+header .mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 660px) {
+    header .logo-title {
+        display: none;
+    }
+    header img {
+        margin: 6px 24px;
+    }
+    header nav {
+        display: none;
+    }
+    header .mobile {
+        display: inline-flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
+.banner {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner img {
+    max-width: 60%;
+    margin: 32px 24px;
+}
+
+.banner .content {
+    display: inline-flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 24px 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0 0 24px 0;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.3rem;
+    margin: 0 0 24px 0;
+    font-weight: 400;
+}
+
+
+/*MDN https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button*/
+
+.button {
+    color: white;
+    background: #444444;
+    padding: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 32px;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 660px) {
+    .banner {
+        flex-direction: column;
+    }
+    .banner img {
+        max-width: 100%;
+        margin: 0 0 32px 0;
+    }
+    .banner .content {
+        width: 90%;
+    }
+}
+
+
+/* SECTION 3 */
+
+element.style {
+    width: 100%;
+}
+
+.information {
+    display: flex;
+    width: 100%;
+}
+
+.left-box-desktop {
+    width: 50%;
+}
+
+.left-box {
+    width: 100%;
+}
+
+.left-events {
+    width: 100%;
+    display: inline-blocx;
+    margin: 0 24px 0 24px;
+    text-align: justify;
+}
+
+.left-events img {
+    margin: 32px 0 32px 0;
+    width: 20%;
+    display: flex;
+}
+
+.desktop #Strategist {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 32px 24px;
+}
+
+.box {
+    width: 50%;
+    margin: 16px 0;
+    display: inline-flex;
+    flex-direction: column;
+    border: solid 1px #cac6c6;
+    border-bottom: none;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.box p {
+    margin: 8px 0;
+}
+
+.info {
+    display: flex;
+    border-bottom: solid 1px #cac6c6;
+    width: 100%;
+    align-items: center;
+}
+
+.info img {
+    width: 35%;
+    margin: 16px;
+    display: inline;
+}
+
+.info-box {
+    width: 55%;
+    display: inline-block;
+}
+
+.info-box b {
+    color: rgb(0, 93, 243);
+    font-weight: 700;
+}
+
+.info-box p {
+    margin: 8px 0;
+}
+
+.info .mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 660px) {
+    .desktop {
+        display: none;
+    }
+    .info .desktop {
+        display: none;
+    }
+    .box {
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+    .info .mobile {
+        display: block;
+    }
+    .info {
+        flex-direction: column;
+        max-width: 95%;
+        align-items: flex-start;
+        border: none;
+        margin: 0;
+    }
+    .info img {
+        width: 100%;
+    }
+    .info-box {
+        margin-left: 32px;
+        width: 100%;
+    }
+}
+
+.learning {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 32px 0 32px 0;
+}
+
+.learning h1 {
+    margin-bottom: 16px;
+}
+
+.courses {
+    display: flex;
+    margin: 0 56px;
+}
+
+.course {
+    display: inline;
+    margin: 16px;
+    background-color: white;
+    text-align: left;
+    width: 33.33%;
+}
+
+.course img {
+    max-width: 100%;
+}
+
+.course h3 {
+    margin: 16px 16px 0 16px;
+}
+
+.course p {
+    margin: 8px 16px;
+    color: grey;
+}
+
+#course {
+    margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 660px) {
+    .courses img,
+    .courses p {
+        display: none;
+    }
+    .courses h3 {
+        background-color: lightgrey;
+        padding: 16px 16px 24px 16px;
+        margin: 0 16px;
+    }
+    .courses {
+        display: inline;
+        margin: 0;
+    }
+    .learning {
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 32px 0 32px 0;
+        max-width: 100%;
+        margin: 0;
+    }
+    .course {
+        margin: 4px;
+    }
+}
+
+video {
+    max-width: 100%;
+    margin: 8px 0 24px 0;
+}
+
+.container {
+    display: flex;
+}
+
+.exhibit {
+    text-align: center;
+    padding: 32px 0 16px 0;
+    border-bottom: 1px solid #cac6c6;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    text-align: justify;
+}
+
+.exhibit .box .container {
+    width: 37%;
+    margin: 0;
+    display: inline-flex;
+    flex-direction: column;
+    border: none;
+    text-align: left;
+}
+
+.exhibit p {
+    margin: 8px 0 16px 0;
+}
+
+.exhibit .info b {
+    border: 1px solid #cac6c6;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 660px) {
+    .exhibit .container .box {
+        display: none;
+    }
+    .exhibit h1 {
+        margin: 0 0 16px 0;
+    }
+    * {
+        max-width: 100%;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 24px;
+    font-size: small;
+}
+
+footer span {
+    margin: 0 8px;
+}

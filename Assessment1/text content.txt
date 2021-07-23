@@ -1,0 +1,64 @@
+justified-content
+align
+display:flex
+
+===
+
+Learn something
+new everyday
+
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
+
+COURSES
+
+Software engineering
+
+COURSES
+
+Web Development, Mobile
+Development, iOT, APIs
+
+Imaging & Design, Web Design,
+Motion Graphics & Visual Effects,
+Computer Animation
+
+User Experience Design, User
+Research, Visual Design
+
+Data Science, Big Data, SQL, Data
+Visualization 
+
+Product Development, Business
+Development, Startup
+
+Analytics, Content Marketing,
+Mobile Marketing
+
+----
+
+It doesn't hurt to keep practicing
+
+"Curabitur vitae libero in ipsum porttitor consequat.
+----
+
+Orientation date
+Tue 10/11 & Wed 10/12: 8am-3pm
+Read more
+
+Our campus
+Find which campus is close by you
+Read more
+
+Our guest lecture
+Join a keynote with Oliver Sack
+about music in medical treatment
+Read more
+----
+Fisma: Design and Prototype
+Designer showcase of new prototype product
+
+Now and then 
+Research study about York
+
+https://discuss.codecademy.com/t/colmar-academy-capstone-project-mobile-screen-not-fitting-the-screen/463727

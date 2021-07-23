@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+
+/*Overall*/
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*.nav-bar*/
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 24px;
+    height: 64px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+.nav-links {
+    font-weight: bold;
+}
+
+.nav li {
+    margin-left: 16px;
+}
+
+.navigation-mobile {
+    display: none;
+}
+
+
+/*SEC 1*/
+
+.banner {
+    display: flex;
+    background-color: lightgray;
+}
+
+.banner img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.banner-image {
+    margin: 32px 24px;
+    flex-basis: 60%;
+}
+
+.banner button {
+    padding: 8px;
+    margin-top: 12px;
+    margin-right: 35px;
+    background: #4a4a4a;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+
+
+/*SEC 2,3*/
+
+.info-left h1 {
+    font-size: 32px;
+}
+
+.banner h4 {
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.banner button {
+    margin-bottom: 32px;
+}
+
+
+/*SEC 4 = Bootstrap*/
+
+
+/*SEC 5*/
+
+.video {
+    padding-right: 24px;
+    flex: 60%;
+}
+
+.thesis-left video {
+    display: absolute;
+    max-width: 60%;
+    max-height: 100%;
+}
+
+.thesis-left video h4 {
+    padding-top: 24px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.thesis-exhibit {
+    padding: 32px 24px;
+    display: flex;
+}
+
+.thesis-exhibit p {
+    font-size: 14px;
+}
+
+.thesis-exhibit h2 {
+    padding-top: 32px;
+}
+
+.exhibits {
+    display: flex;
+    flex: column;
+}
+
+
+/*SEC 6*/
+
+footer {
+    padding: 16px 24px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
